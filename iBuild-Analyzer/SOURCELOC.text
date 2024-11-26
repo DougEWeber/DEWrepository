@@ -1,0 +1,41 @@
+Source Location Report
+Summary report:
+DEWLIVE objects:
+    Objects with source in library DEWLIVE: 14
+DEWREPO objects:
+    Objects with source in library DEWLIVE: 14
+
+Detail report:
+DEWLIVE objects:
+    Objects with source in library DEWLIVE:
+        *MODULE RPGLE   DEWLIVE/CUSMAIN                     
+        *FILE DSPF      DEWLIVE/MAINMENU                    
+        *MODULE RPGLE   DEWLIVE/CUSMNT                      
+        *FILE LF        DEWLIVE/CUSMSTL1                    
+        *FILE PF        DEWLIVE/CUSMST                      
+        *FILE DSPF      DEWLIVE/MNTMENU                     
+        *MODULE RPGLE   DEWLIVE/SCHNAM                      
+        *FILE LF        DEWLIVE/CUSMSTL3                    
+        *FILE DSPF      DEWLIVE/SCHNAMD                     
+        *MODULE RPGLE   DEWLIVE/SCHZIP                      
+        *FILE LF        DEWLIVE/CUSMSTL2                    
+        *FILE DSPF      DEWLIVE/SCHZIPD                     
+        *PGM RPGLE      DEWLIVE/SCHNAMRPG                   
+        *CMD            DEWLIVE/CUSTMAINT                   
+DEWREPO objects:
+    Objects with source in library DEWLIVE:
+        *PGM RPGLE      DEWREPO/SCHNAMRPG                   
+        *MODULE RPGLE   DEWREPO/CUSMAIN                     
+        *MODULE RPGLE   DEWREPO/CUSMNT                      
+        *MODULE RPGLE   DEWREPO/SCHNAM                      
+        *MODULE RPGLE   DEWREPO/SCHZIP                      
+        *CMD            DEWREPO/CUSTMAINT                   
+        *FILE PF        DEWREPO/CUSMST                      
+        *FILE LF        DEWREPO/CUSMSTL1                    
+        *FILE LF        DEWREPO/CUSMSTL2                    
+        *FILE LF        DEWREPO/CUSMSTL3                    
+        *FILE DSPF      DEWREPO/MAINMENU                    
+        *FILE DSPF      DEWREPO/MNTMENU                     
+        *FILE DSPF      DEWREPO/SCHNAMD                     
+        *FILE DSPF      DEWREPO/SCHZIPD                     
+End of Source Location Report.
