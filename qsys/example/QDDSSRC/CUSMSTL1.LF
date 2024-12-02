@@ -5,7 +5,8 @@
      A*   DESCRIPTION:  THIS IS LOGICAL FILE CUSMSTL1.                *
      A*                 IT CONTAINS ONE RECORD FORMAT CALLED CMLREC1. *
      A*                 LOGICAL VIEW OF CUSTOMER MASTER FILE (CUSMST) *
-     A*                 BY CUSTOMER NUMBER (CUST)                     *
+     A*                 BY CUSTOMER NUMBER (CUST)       test2         *
+
      A*****************************************************************
      A          R CMLREC1                   PFILE(CUSMST)
      A            CUST
