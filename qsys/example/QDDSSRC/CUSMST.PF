@@ -17,3 +17,4 @@
      A            ARBAL         10  2       TEXT('ACCOUNTS RECEIVABLE BALANCE')
      A            SPEC           1          TEXT('SPECIAL')
      A            SPEC2          2          TEXT('SPECIAL2')
+     A            SPEC3          3          TEXT('SPECIAL3')
