@@ -1,0 +1,29 @@
+---
+targets:
+  LIB1-CUSTINV-FILE :
+    objlib: LIB1
+    objname: CUSTINV
+    objtype: FILE
+    objattr: LF
+    protected: no
+    requisites :
+      - QDDSSRC.FILE/CUSTINV.MBR
+      - $(ASPPREFIX)/QSYS.LIB/$(LIB1).LIB/CUSMST.FILE
+      - $(ASPPREFIX)/QSYS.LIB/$(LIB1).LIB/INVMST.FILE
+    requisiteyamlrecords :
+      - LIBL-QDDSSRC-SRCMBR-CUSTINV
+      - LIB1-CUSMST-FILE
+      - LIB1-INVMST-FILE
+    command: EDOCRTOBJ
+    parameters:
+      - "BLDTGT($(LIB1)/CUSTINV)"
+      - "OBJTYPE(*FILE)"
+      - "OBJATTR(LF)"
+      - "CMD(CRTLF)"
+      - "CMDPARMS(' FILE($(LIB1)/CUSTINV) SRCFILE(QDDSSRC) SRCMBR(CUSTINV) TEXT(''Customer invoices'')')"
+  LIBL-QDDSSRC-SRCMBR-CUSTINV :
+    objlib: "*LIBL"
+    objname: QDDSSRC
+    objtype: SRCMBR
+    objattr: "LF"
+    mbrname: CUSTINV

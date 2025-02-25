@@ -1,0 +1,8 @@
+                R CUSTINV                   JFILE(CUSMST INVMST)
+                J                           JOIN(CUSMST INVMST)
+                                            JFLD(CUST CUST)
+                  CUST                      JREF(CUSMST)
+                  NAME
+                  INVID
+                  ARBAL                     JREF(INVMST)
+                K CUST

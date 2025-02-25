@@ -138,6 +138,14 @@ Dependency Tree Report (*DEPTREE)
     *SRCMBR LF      *LIBL/QDDSSRC          (CUSMSTL3)
     *FILE PF        LIB1/CUSMST
       *SRCMBR PF      *LIBL/QDDSSRC          (CUSMST)
+  *FILE LF        LIB1/CUSTINV
+    *SRCMBR LF      *LIBL/QDDSSRC          (CUSTINV)
+    *FILE PF        LIB1/CUSMST
+      *SRCMBR PF      *LIBL/QDDSSRC          (CUSMST)
+    *FILE PF        LIB1/INVMST
+      *SRCMBR PF      *LIBL/QDDSSRC          (INVMST)
+  *FILE PF        LIB1/INVMST
+    *SRCMBR PF      *LIBL/QDDSSRC          (INVMST)
   *FILE DSPF      LIB1/MAINMENU
     *SRCMBR DSPF    *LIBL/QDDSSRC          (MAINMENU)
   *FILE DSPF      LIB1/MNTMENU
