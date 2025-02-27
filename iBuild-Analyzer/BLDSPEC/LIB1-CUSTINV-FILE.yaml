@@ -8,6 +8,9 @@ targets:
     protected: no
     requisites :
       - QDDSSRC.FILE/CUSTINV.MBR
+      - QDDSSRC.FILE/CUSMST.MBR
+      - QDDSSRC.FILE/INVMST.MBR
+    buildorderrequisites :
       - $(ASPPREFIX)/QSYS.LIB/$(LIB1).LIB/CUSMST.FILE
       - $(ASPPREFIX)/QSYS.LIB/$(LIB1).LIB/INVMST.FILE
     requisiteyamlrecords :
